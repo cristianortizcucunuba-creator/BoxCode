@@ -1,2 +1,2 @@
 def main():
-    print("Funcion main")
+    print("funcion principal")
