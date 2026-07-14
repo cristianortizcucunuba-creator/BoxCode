@@ -10,10 +10,10 @@ def validador(texto):
             print("error")
     return numMAX
 
+
 numMAX= validador("elige max: ")
 numU = None
-numElegido= 0
-numR = random.randint(numElegido, numMAX)
+numR = random.randint(0, numMAX)
 
 
 while numU != numR:
