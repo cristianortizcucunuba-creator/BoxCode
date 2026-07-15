@@ -15,8 +15,9 @@ def validar_password(password):
         return False
     return True
 
+
 userPassword = input("Enter your password for validation: ")
 while validar_password(userPassword) == False:
     print("your password is very easy")
-    userPassword= input ("intenta con otra contraseña: ")
-print("your password is sure :D")
+    userPassword= input ("Try with other password: ")
+print("Your password is sure :D")
